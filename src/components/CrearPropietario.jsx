@@ -17,7 +17,7 @@ export const CrearPropietario= () => {
 
   return (
     <div className="form-wrapper">
-      <Form id="form_crearpropietario" onSubmit={enviarRegistro}>
+      <Form id="form_crearPropietario" onSubmit={enviarRegistro}>
         <Form.Group controlId="Name">
           <Form.Label>Nombre</Form.Label>
           <Form.Control type="text" onBlur={(e) => setMyName(e.target.value)}></Form.Control>

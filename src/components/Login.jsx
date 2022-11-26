@@ -8,6 +8,11 @@ export const Login = () => {
   const [miUser, setMiUser] = useState("");
   const [miPass, setMiPass] = useState("");
 
+ 
+useEffect(() => { 
+    
+    });
+
   function iniciarSesion(e){
     e.preventDefault();
     let usuario = document.getElementById("txtusu").value;
@@ -35,7 +40,7 @@ export const Login = () => {
   return (
     <div className="container" style={{background: "ligthgray", marginTop:20, padding:20 }}>
         
-        {<ToastPropietarios Title={"Bienvenido"} Msg={"Ingrese a nuestro sistema de propietarios"} duracion={4000}></ToastPropietarios>}
+        {<ToastPropietarios Title={"Bienvenido"} Msg={"Registrese al sistema de propietarios"} duracion={15000}></ToastPropietarios>}
         
         <form id="form_login">
             <div>

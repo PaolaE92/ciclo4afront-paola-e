@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
 import { EditarPropietarios } from "./EditarPropietarios"
 
-export const FilaPropietarios = (props) => {
+export const FilaPropietario = (props) => {
 
   function borrarPropietario(){
     alert("Propietario a eliminar");
